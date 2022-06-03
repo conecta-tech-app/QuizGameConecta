@@ -32,11 +32,11 @@ continue_btn.onclick = () => {
     createQuestion();
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
-    startTimer(30); //calling startTimer function
+    startTimer(60); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
 }
 
-let timeValue = 30;
+let timeValue = 60;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
@@ -51,7 +51,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = () => {
     quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
-    timeValue = 30;
+    timeValue = 60;
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -204,9 +204,9 @@ function startTimer(time) {
 }
 
 function startTimerLine(time) {
-    counterLine = setInterval(timer, 56);
+    counterLine = setInterval(timer, 1000);
     function timer() {
-        time += 1; //upgrading time value with 1
+        time += 8.9; //upgrading time value with 1
         time_line.style.width = time + "px"; //increasing width of time_line with px by time value
         if (time > 549) { //if time value is greater than 549
             clearInterval(counterLine); //clear counterLine
