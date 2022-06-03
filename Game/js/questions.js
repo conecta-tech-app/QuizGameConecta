@@ -139,7 +139,7 @@ let listQuestions = [
     answer: "Analisar períodos passados e formar cálculos específicos e complexos.",
     options: [
       "Comprar sempre  a mais para não faltar.",
-      "Comrpsr sempre menos  para não sobrar.",
+      "Comprar sempre menos  para não sobrar.",
       "Analisar as quantidades no ano anterior e comprar igual.",
       "Analisar períodos passados e formar cálculos específicos e complexos."
     ]
