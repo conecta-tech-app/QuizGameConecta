@@ -128,7 +128,7 @@ let listQuestions = [
     options: [
       "Aumento de procura em concorrentes.",
       "Aumento de ativos no caixa.",
-      "Lucratividade.",
+      "Aumento da oferta que causa uma queda no preço da mercadoria.",
       "Diminuição de procura em concorrente."
     ]
   },
